@@ -3,12 +3,11 @@ title = "b. Deploy ParallelCluster UI"
 weight = 12
 +++
 
-The [AWS ParallelCluster API](https://docs.aws.amazon.com/parallelcluster/latest/ug/api-reference-v3.html) has been released with the version 3 of AWS ParallelCluster. It enables you to to manage clusters though an API hosted on AWS and build workflows to manage your cluster lifecycle with Python.
+[AWS ParallelCluster UI](https://docs.aws.amazon.com/parallelcluster/latest/ug/pcui-using-v3.html) is a web UI that built upon the [AWS ParallelCluster API](https://docs.aws.amazon.com/parallelcluster/latest/ug/api-reference-v3.html) that you can use to create, manage, and access your compute clusters. It's deployed as a CloudFormation stack into your AWS account and it'll take ~20 minutes to deploy.
 
-ParallelCluster UI is a web UI that built upon the AWS ParallelCluster API that you can use to manage your compute clusters. It'll take about 20 minutes to deploy both stacks. You will initiate the deployment now to have it ready by the time you need it.
+## Setup
 
-1. Deploy the ParallelCluster UI stack by clicking on the link in your region. If you don't have a preffered region use **Ohio (us-east-2)**.
-
+1. Deploy the ParallelCluster UI stack by clicking on the link in your region. If you don't have a preferred region use **Ohio (us-east-2)**:
 
 | Region                     | Launch                                                                                                                                                                                                                                                                                                                                         |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

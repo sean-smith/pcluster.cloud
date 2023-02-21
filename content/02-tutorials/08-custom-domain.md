@@ -70,7 +70,7 @@ Create a DNS **CNAME** rule that points your domain to the API Gateway domain li
 
 ## Configure AWS Lambda Function
 
-1. Go to the [Lambda Console (deeplink)](https://console.aws.amazon.com/lambda/home?#/functions?f0=true&fo=and&k0=functionName&n0=false&o0=%3A&op=and&v0=PclusterManagerFunction) and search for `PclusterManagerFunction`
+1. Go to the [Lambda Console (deeplink)](https://console.aws.amazon.com/lambda/home?#/functions?f0=true&fo=and&k0=functionName&n0=false&o0=%3A&op=and&v0=ParallelClusterUIFunction) and search for `ParallelClusterUIFunction`
 2. Select the function then **Configuration** > **Environment Variable**. Edit `SITE_URL` to point to the domain you setup:
 
     ![Hosted UI](08-custom-domain/site-url.png)
