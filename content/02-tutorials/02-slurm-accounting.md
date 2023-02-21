@@ -5,7 +5,7 @@ weight = 22
 
 ![Accounting Architecture](02-slurm-accounting/architecture.png)
 
-In this tutorial we will work through setting up [Slurm Accounting](https://slurm.schedmd.com/accounting.html). This is a pre-requisite for many features within Slurm, including job resource tracking and [Slurm Federation](https://slurm.schedmd.com/federation.html). Starting in **3.3.0** Slurm accounting is setup directly in the ParallelCluster Manager interface. This tutorial assumes you're creating a cluster **>= 3.3.0**.
+In this tutorial we will work through setting up [Slurm Accounting](https://slurm.schedmd.com/accounting.html). This is a pre-requisite for many features within Slurm, including job resource tracking and [Slurm Federation](https://slurm.schedmd.com/federation.html). Starting in **3.3.0** Slurm accounting is setup directly in the ParallelCluster UI interface. This tutorial assumes you're creating a cluster **>= 3.3.0**.
 
 ### Step 1 - Setup External Accounting Database
 
@@ -36,11 +36,11 @@ Once the stack creation has completed, go to the **Outputs** tab of the stack an
 
 ### Step 3 - Create Your Cluster
 
-Next, go to ParallelCluster Manager and choose the **Create** option to create a new cluster.
+Next, go to ParallelCluster UI and choose the **Create** option to create a new cluster.
 
 #### Slurm Settings
 
-Under the HeadNode section, you'll find a section called **Slurm Properties**. Enter in information from the cloudformation stack outputs for Database, Username, and Password, you can use the following mapping to go from CloudFormation to ParallelCluster Manager:
+Under the HeadNode section, you'll find a section called **Slurm Properties**. Enter in information from the cloudformation stack outputs for Database, Username, and Password, you can use the following mapping to go from CloudFormation to ParallelCluster UI:
 
 | Parameter                      | CloudFormation Stack Output                        |
 |--------------------------------|----------------------------------------------------|

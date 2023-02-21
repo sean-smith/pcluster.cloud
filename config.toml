@@ -1,6 +1,6 @@
 baseURL = "https://pcluster.cloud"
 languageCode = 'en-us'
-title = 'Pcluster Manager Docs'
+title = 'ParallelCluster UI Docs'
 theme = "hugo-theme-learn"
 uglyurls = true
 sectionPagesMenu = "main"
@@ -10,10 +10,10 @@ pygmentsCodeFences = true
 hrefTargetBlank = true
 
 [params]
-editURL = "https://github.com/aws-samples/pcluster-manager/tree/main/docs/content/"
+editURL = "https://github.com/sean-smith/pcluster.cloud/tree/main/content/"
 themeVariant = "mine"
 showVisitedLinks = true
-description = "Pcluster Manager Docs"
+description = "ParallelCluster UI Docs"
 disableSearch = false
 disableAssetsBusting = false
 disableLanguageSwitchingButton = true
@@ -26,7 +26,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 name = "<i class='fab fa-github'></i> Github"
-url = "https://github.com/aws-samples/pcluster-manager"
+url = "https://github.com/sean-smith/pcluster.cloud"
 weight = 10
 
 [[menu.shortcuts]]

@@ -55,7 +55,7 @@ In order to allow the EC2 instances to modify tags, we need to create an IAM pol
 
 ### Step 2 - configure HeadNode
 
-In Pcluster Manager, when you create the cluster, on the **HeadNode** section drop down the "Advanced Options".
+In ParallelCluster UI, when you create the cluster, on the **HeadNode** section drop down the "Advanced Options".
 
 2. Turn on Multi-runner script
 3. Click "Add Script"

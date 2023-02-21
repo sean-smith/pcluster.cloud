@@ -15,7 +15,7 @@ weight = 25
 
 To setup the connection, we need to run a script to install the Cloud9 packages on the HeadNode.
 
-1. From the Pcluster Manager GUI create a new cluster. Select the **Wizard** option:
+1. From the ParallelCluster UI create a new cluster. Select the **Wizard** option:
 2. On the **HeadNode** configuration tab
     + Expand **Advanced Options** > turn on **Multi-Script Runner** > select **Cloud9**
 

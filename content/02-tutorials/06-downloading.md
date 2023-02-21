@@ -10,7 +10,7 @@ This tutorial shows you how you can download a file from an external source at c
 
 In order to download a file when you start your cluster,
 
-1. From the Pcluster Manager GUI create a new cluster. Select the **Wizard** option:
+1. From the ParallelCluster UI create a new cluster. Select the **Wizard** option:
 2. On the **HeadNode** configuration tab
     + Expand **Advanced Options** > turn on **Multi-Script Runner** > select **Downloader**
 

@@ -5,7 +5,7 @@ draft = false
 weight = 21
 +++
 
-To enable Multi-Factor Authentication (MFA) with Pcluster Manager there's two steps that need to be completed:
+To enable Multi-Factor Authentication (MFA) with ParallelCluster UI there's two steps that need to be completed:
 
 1. Enable MFA for Cognito Userpool
 2. Login and setup Authenticator app
@@ -17,9 +17,9 @@ To enable Multi-Factor Authentication (MFA) with Pcluster Manager there's two st
 
 ![PCM MFA Cognito Setup](01-setup-mfa/cognito-enable-mfa.png)
 
-#### 2. Login to Pcluster Manager
+#### 2. Login to ParallelCluster UI
 
-1. The next time you login to ParallelCluster Manager you'll see a screen like the following: 
+1. The next time you login to ParallelCluster UI you'll see a screen like the following: 
 2. Scan the QR code and continue setup in your favorite authenticator app. I reccomend [Authy](https://authy.com/features/setup/).
 
 ![Setup Authy](01-setup-mfa/setup-authy.png)

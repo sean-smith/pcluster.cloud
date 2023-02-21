@@ -77,4 +77,4 @@ Create a DNS **CNAME** rule that points your domain to the API Gateway domain li
 
 ## Test
 
-1. Navigate to your domain, i.e. `example.com` and authenticate, you should now be connected to ParallelCluster Manager using your own domain.
+1. Navigate to your domain, i.e. `example.com` and authenticate, you should now be connected to ParallelCluster UI using your own domain.
